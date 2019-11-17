@@ -1,0 +1,10 @@
+name: AntiPluginViewer
+version: ${project.version}
+main: uwu.smsgamer.antipluginviewer.AntiPluginViewer
+api-version: 1.13
+authors: [Sms_Gamer_3808]
+description: Blocks all plugin viewers that are known (yes, every)
+permissions:
+  apv.bypass:
+    description: Bypasses the tab completion prevention.
+    default: false

@@ -1,0 +1,98 @@
+# # # # # # # # # # # # # # # # # # # # # #
+# starts-with is whether or not
+# the command starts with or
+# equals ignore case.
+# # # # # # # # # # # # # # # # # # # # # #
+blocked-commands:
+  'essentials:':
+    message: '&4You do not have access to that command.'
+    bypass-permission: essentials.bypass
+    starts-with: true
+  'minecraft:':
+    message: '&cI''m sorry, but you do not have permission to perform this command. Please contact the server administrators if you believe that this is in error..'
+    bypass-permission: minecraft.bypass
+    starts-with: true
+  'bukkit:':
+    message: '&4You do not have access to that command.'
+    bypass-permission: bukkit.bypass
+    starts-with: true
+  'spigot:':
+    message: '&4You do not have access to that command.'
+    bypass-permission: spigot.bypass
+    starts-with: true
+  ver:
+    message: '&4You do not have access to that command.'
+    bypass-permission: version.bypass
+    starts-with: false
+  version:
+    message: '&4You do not have access to that command.'
+    bypass-permission: version.bypass
+    starts-with: false
+  '?':
+    message: '&4You do not have access to that command.'
+    bypass-permission: help.bypass
+    starts-with: false
+  help:
+    message: '&4You do not have access to that command.'
+    bypass-permission: help.bypass
+    starts-with: false
+  plugins:
+    message: '&4You do not have access to that command.'
+    bypass-permission: plugins.bypass
+    starts-with: false
+  pl:
+    message: '&4You do not have access to that command.'
+    bypass-permission: plugins.bypass
+    starts-with: false
+
+blocked-tabs:
+  'essentials:':
+    tab-completion:
+      - esSEnTiaLs
+    bypass-permission: essentials.bypass
+    starts-with: true
+  'minecraft:':
+    tab-completion:
+      - derp
+      - Derpidy
+      - derp
+      - DERP!!!!
+    bypass-permission: minecraft.bypass
+    starts-with: true
+  'bukkit:':
+    tab-completion:
+      - 'You do not have access to that command.'
+    bypass-permission: bukkit.bypass
+    starts-with: true
+  'spigot:':
+    tab-completion:
+      - derp
+      - DERP
+      - DeRp
+      - dErP
+      - dERP
+      - dErP
+      - DrEp
+    bypass-permission: spigot.bypass
+    starts-with: true
+  ver:
+    tab-completion:
+      - HAHA
+      - GAY
+    bypass-permission: version.bypass
+    starts-with: false
+  version:
+    tab-completion:
+      - JOKES ON YOU UR BAD
+    bypass-permission: version.bypass
+    starts-with: false
+  '?':
+    tab-completion:
+      - '?'
+    bypass-permission: help.bypass
+    starts-with: false
+  help:
+    tab-completion:
+      - '?'
+    bypass-permission: help.bypass
+    starts-with: false
